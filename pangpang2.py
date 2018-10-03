@@ -54,7 +54,6 @@ def Message():
     return jsonify(dataSend)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port = 6000)
+    app.run(host='0.0.0.0', port = 5000)
+    ->app.run()
 
-
-출처: http://cupjoo.tistory.com/5 [오지는 컴퓨터 공부]
